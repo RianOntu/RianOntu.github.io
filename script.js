@@ -15,10 +15,12 @@ switch(inp)
 let val=re_phone.test(phone);
 function vaidate(){
     if(val==true){
-        console.log("Valid Input!")
+        console.log("Valid Input!");
+        document.write("Valid Input!")
     }
     else{
-        console.log("Invalid Input!")
+        console.log("Invalid Input!");
+        document.write("Invalid Input!")
     }
 }
 vaidate();
@@ -29,10 +31,12 @@ case "2":
 let val1=re_mail.test(email);
 function vaidate1(){
 if(val1==true){
-console.log("Valid Input!")
+console.log("Valid Input!");
+document.write("Valid Input!")
 }
 else{
-console.log("Invalid Input!")
+console.log("Invalid Input!");
+document.write("Invalid Input!")
 }
 }
 vaidate1();
@@ -44,9 +48,12 @@ let val2=re_post.test(postcode);
 function vaidate2(){
 if(val2==true){
 console.log("Valid Input!")
+document.write("Valid Input!");
 }
 else{
-console.log("Invalid Input!")
+console.log("Invalid Input!");
+document.write("Invalid Input!")
+
 }
 }
 vaidate2();
