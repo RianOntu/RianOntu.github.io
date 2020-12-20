@@ -5,7 +5,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
   }
   
- 
+  let correct_ans=getRandomInt(11);
 
   for(let i=0;i<=2;i++){
 
@@ -13,7 +13,7 @@ function getRandomInt(max) {
 
 if(i==0){
     var prom=prompt("Guess a Number between 0 to 10! You have three chances");
-    let correct_ans=getRandomInt(11);
+  
     let bigger=prom<correct_ans;
    let smaller=prom>correct_ans;
         if(bigger==true){
