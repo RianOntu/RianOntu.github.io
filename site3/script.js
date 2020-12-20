@@ -18,13 +18,16 @@ if(i==0){
    let smaller=prom>correct_ans;
         if(bigger==true){
             alert('The answer is bigger than your guessed one!');
+            break;
         }
         else if(smaller==true){
             alert('The answer is smaller than your guesses one!');
+            break;
         }
         else if(correct_ans==prom)
         {
-            alert("You win!")
+            alert("You win!");
+            break;
         }
 }
 if(i==1){
@@ -37,10 +40,12 @@ if(i==1){
     }
     else if(smaller==true){
         alert('The answer is smaller than your guesses one!');
+        break;
     }
     else if(correct_ans==prom)
     {
-        alert("You win!")
+        alert("You win!");
+        break;
     }
 }
 if(i==2){
@@ -49,14 +54,17 @@ if(i==2){
     let bigger=prom<correct_ans;
    let smaller=prom>correct_ans;
     if(bigger==true){
-        alert('You lose');
+        alert('You lose!');
+        break;
     }
     else if(smaller==true){
         alert('You lose!');
+        break;
     }
     else if(correct_ans==prom)
     {
-        alert("You win!")
+        alert("You win!");
+        break;
     }
 
 }
