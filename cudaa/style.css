@@ -1,0 +1,596 @@
+body{
+     font-family: 'Titilium Web',sans-serif;
+    
+}
+/*Header Top Area Start*/
+
+header
+{
+    background: #87509c;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar-toggler-icon
+{
+   color: white!important; 
+
+   margin-right:0%;
+}
+.menu
+{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top:1.2%;
+}
+
+.navigation
+{
+   
+   font-family: 'Titillium Web', sans-serif;
+}
+ul li a
+{
+    color:white!important;
+    padding: 10px 20px!important;
+    transition: 0.8s;
+    font-size: 15.83px;
+   
+}
+ul li a:hover{
+    text-decoration: none!important;
+    background: #643a79;
+     
+  
+}
+/*Header Top Area End*/
+
+/*Header Mid Area Start*/
+.mid_description
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+.header_mid .hi
+{
+    width:98%;
+} 
+.header_mid h3{
+    color:white;
+    margin-top:3.8%;
+    font-size: 32.16px;
+    font-weight:700;
+}
+.mid_btn
+{
+    background: #eb7d4b;
+    color:white;
+}
+.work_with_us
+{
+    width: 100%;
+    margin-top:9%;
+    margin-left: 4%;
+    margin-bottom:13%;
+    
+    
+  
+}
+.work_with_us .mid_btn
+{
+    padding:3% 5%;
+}
+/*Header Mid Area End*/
+
+
+/*Service Area Start*/
+.services_area
+{
+    background: #17c2a4;
+    
+   
+}
+
+.common
+{
+    font-family: 'Titillium Web',sans-serif;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    
+}
+
+.service_description
+{
+    font-family: 'Titillium Web',sans-serif;
+    color:white;
+    margin-bottom: 20%;
+    font-weight: 500;
+    margin-top: 80%;
+}
+.common:after{
+    content: '';
+    width:15%;
+    height:12%;
+    background: #14a58c;
+    position: absolute;
+    left: 43%;
+    top: 110%;
+}
+.service_icon .s1
+{
+    margin-top:-12%;
+}
+.service_icon .s2
+{
+    margin-top:-12%;
+}
+.service_icon .s3
+{
+    margin-top:-12%;
+}
+.service_icon .s4
+{
+    margin-top:-13%;
+}
+.service_icon .col-lg-3
+{
+    width: 100%;
+    
+    float: left;
+
+font-family: 'Titillium Web',sans-serif;
+    margin-bottom: 50%;
+    margin-top: -11%;
+    text-align:center;
+}
+.service_icon p{
+    margin-bottom:80%;
+}
+/*Service Area End*/
+
+/*Team Area Start*/
+.team_area
+   {
+    background: #e7f1f8!important;
+   }
+
+.team{
+    color: #3c4761!important;
+}
+.team-description
+{
+     color:#3c4761;
+
+}
+.team:after{
+    content: '';
+    width:15%;
+    height:12%;
+    background:#c8d9e5!important;
+    position: absolute;
+    left: 43%;
+    top: 110%;
+}
+.team_head
+{
+    margin-left:2%;
+}
+.team_icon .col-lg-3
+{
+     width: 100%;
+     margin-bottom: 50%;
+     float:left;
+     text-align: center;
+     margin-top: 3%;
+font-family: 'Titillium Web',sans-serif;
+}
+.sl
+{
+    color:#8cd1ee;
+    text-decoration: none;
+}
+.sl:hover
+{
+    text-decoration: none;
+}
+.team_icon p
+{
+    color:#9099a8;
+    width: 80%;
+    text-align: center;
+    margin-left: 13%;
+}
+.fa.fa-facebook
+{
+    height:10px;
+    width: 10px;
+   margin-right: 1px;
+    color:white;
+    text-align: center;
+    margin-top:7px;
+   
+
+}
+.fa.fa-twitter
+{
+    height:10px;
+    width: 10px;
+   margin-right: 5px;
+    color:white;
+    text-align: center;
+    margin-top:7px;
+   
+}
+.fa.fa-linkedin
+{
+    height:10px;
+    width: 10px;
+   margin-right: 3px;
+    color:white;
+    text-align: center;
+    margin-top:6px;
+   
+}
+.fa.fa-envelope-o
+{
+    height:10px;
+    width: 10px;
+   margin-right: 6px;
+    color:white;
+    text-align: center;
+    margin-top:7px;
+}
+.fb
+{
+    background:#bdd1df ;
+    display: inline-block;
+    height: 28px;
+    width:32px;
+    border-radius: 50%;
+    margin-top: -5%;
+    margin-left: 3%;
+    margin-bottom: 13%;
+ 
+
+}
+/*Team Area End*/
+
+
+
+/*Skill Area Start*/
+.skill_area
+{
+    background:#ffffff ;
+}
+.skill:after{
+    content: '';
+    width:15%;
+    height:12%;
+    background:#dfe8ed!important;
+    position: absolute;
+    left: 43%;
+    top: 110%;
+}
+.skill
+{
+    color:#3c4761 ;
+}
+.sk1
+{
+    float:left;
+    width:100%;
+   text-align: center;
+   font-family: 'Titillium Web',sans-serif;
+}
+.circlebar_1{
+    position: relative
+}.circlebar_1 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circlebar_2{
+    position: relative
+}.circlebar_2 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circlebar_3{
+    position: relative
+}.circlebar_3 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circlebar_4{
+    position: relative
+}.circlebar_4 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sk1 h6
+{
+    font-weight: 700;
+    margin-bottom: 22%;
+}
+/*Skill Area End*/
+
+/*Portfolio Area Start*/
+.portfolio_area
+{
+    background: #ffdd99;
+    font-family: 'Titillium Web',sans-serif;
+}
+.portfolio:after{
+    content: '';
+    width:15%;
+    height:12%;
+    background:#e5c37f!important;
+    position: absolute;
+    left: 43%;
+    top: 110%;
+}
+
+
+
+.btnn1
+{
+    
+    background: #ebc985;
+    border:none;
+   text-align: center;
+   border-radius: 3px;
+   transition: 0.7s;
+   
+}
+.btnn2
+{
+    
+    background: #ebc985;
+    border:none;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.7s;
+  
+}
+.btnn3
+{
+    
+    background: #ebc985;
+    border:none;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.7s;
+
+}
+.btnn4
+{
+   
+    background: #ebc985;
+    border:none;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.btnn1:hover
+{
+    background: #ffffff;
+}
+.btnn2:hover
+{
+    background: #ffffff;
+}
+.btnn3:hover
+{
+    background: #ffffff;
+}
+.btnn4:hover
+{
+    background: #ffffff;
+}
+.navbox
+{
+    margin-bottom: 8%!important;
+}
+.portfolio_pic
+{
+    height:90%;
+  
+    width:100%;
+}
+
+.lm_btnn
+{
+    color:white;
+    background: #17c2a4;
+    width:100%;
+    height:10%;
+    padding:5% 10%;
+    border-radius:5px;
+    
+}
+.lm_btnn:hover{
+    text-decoration: none;
+    color:white;
+}
+.container.prtf
+{
+    padding-bottom: 6%;
+    overflow: hidden;
+}
+.offset-md-2.col-md-3.fp1
+{
+    margin-bottom: 6%;
+}
+/*Portfolio Area End*/
+
+
+/*Feedback Area Start*/
+.feedback_area
+{
+    background: #d74680;
+    font-family: 'Titillium Web',sans-serif;
+}
+.feedback:after{
+    content: '';
+    width:15%;
+    height:12%;
+    background:#b73c6d!important;
+    position: absolute;
+    left: 43%;
+    top: 110%;
+}
+.italic_font
+{
+    font-family:'Titillium Web',sans-serif ;
+    color:white;
+    text-align: left;
+
+}
+.feedback_middle
+{
+    font-family:'Titillium Web',sans-serif ;
+}
+.feedback_middle h4
+{
+    color:white;
+    font-size: 24px;
+}
+.last
+{
+    font-size: 14px;
+    color:#ffdd99;
+}
+.italic_font_pic
+{
+    height:70px;
+    width:70px;
+}
+.last_last
+{
+    margin-bottom: 28%;
+}
+/*Feedback Area End*/
+
+/*Contact Area Start*/
+.contact_area
+{
+    background: #3c5499;
+    font-family: 'Titillium Web',sans-serif;
+    
+}
+.contact:after{
+    content: '';
+    width:15%;
+    height:12%;
+    background:#273a71!important;
+    position: absolute;
+    left: 43%;
+    top: 110%;
+}
+.nm{
+    background-color: #273a71!important;
+    color:white!important;
+    width: 100%;
+    position: relative;
+    margin-left:0%;
+}
+
+.nml
+{
+    position:absolute;
+    left:20px;
+    top:5px;
+    color:white;
+    
+}
+sup{
+    color:red;
+    opacity:1;
+}
+.form1
+{
+    width: 100%;
+}
+.big
+{
+    left:0%;
+    position: relative;
+    margin-bottom: 7%!important;
+}
+.big1
+{
+    position: absolute;
+    left:20px;
+    top:5px;
+    color:white;
+
+}
+.big::placeholder
+{
+    color:white!important;
+    opacity:1!important;
+}
+.big::placeholder:after{
+    content:"*"!important;
+    color:red!important;
+}
+.s_m
+{
+    color:white;
+    background-color: #30bae7;
+    width:100%;
+    height:10%;
+    padding:5% 12%;
+    border-radius:5px;
+}
+.s_m1
+{
+    width: 100%;
+    
+}
+.s_m:hover{
+    text-decoration: none;
+}
+.form3
+{
+    width: 100%;
+}
+.contact_container
+{
+    padding-bottom: 8%;
+}
+.social_media
+{
+    background-color: #344b8e;
+}
+.social_media ul li a
+{
+    display: inline-block;
+}
+.foot
+{
+    margin-left:8%;
+}
+.foot:hover{
+    text-decoration:none!important;
+    background: #344b8e!important;
+    color:#30bae7!important;
+}
+.foot-link:hover{
+    text-decoration:none!important;
+    background: #344b8e!important;
+    color:#30bae7!important;
+}
+
+.container.foot_nav {
+	margin-bottom: 1%;
+}
+.navbar.navbar-expand-md.social_media.mb-3 {
+	margin-top: 1%;
+}
+/*Contact Area End*/
