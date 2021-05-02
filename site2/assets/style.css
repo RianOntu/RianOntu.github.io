@@ -1,15 +1,23 @@
-
-button{
-  margin-left: 13%;
- 
-} 
-.card
-{
-    height: 30%!important;
-    width: 50%!important;
-  
+.card {
 }
-.col-md-3
-{
-    display:inline-block;
+.cb {
+  width: 33% !important;
+
+  float: left;
+  display: block !important;
+
+  text-align: center;
+  height: 33% !important;
+}
+img {
+  height: 174px;
+}
+.cart {
+  width: 33% !important;
+
+  float: left;
+  display: block !important;
+
+  text-align: center;
+  height: 33% !important;
 }

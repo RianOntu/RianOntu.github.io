@@ -4,61 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body class="body">
     
-<div class="con">
+<div class="row">
+    <div class="container-fluid">
         
-    <div class="col-md-3">
-        <div class="card">
-            <img src="assets/p3.jpg" alt="">
-            <div class="card-head text-center"id="fp">T-Shirt-1</div>
-            <div class="card-body">
-                <button id="pro1"class="align-items-center">Add to Cart</button>
+        <div class="col-md-8">
+        <div class="col-md-4 cb">
+          <div class="card">
+              <img class="card-img-top" src="assets/p3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" id="fp">T-Shirt-1</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+                <a href="#" class="btn btn-primary" id="pro1">Add To Cart</a>
+                </div>
+                </div>
+        </div>
+      
+            <div class="col-md-4 cb">
+              <div class="card">
+                  <img class="card-img-top" src="assets/p1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title" id="sp">T-Shirt-2</h5>
+                    <p class="card-text">Some quick example text to build on the card title.</p>
+                    <a href="#" class="btn btn-primary" id="pro2">Add To Cart</a>
+      
+              </div>
             </div>
+            </div>
+      <div class="col-md-4 cb">
+          <div class="card">
+              <img class="card-img-top" src="assets/p2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" id="tp">T-Shirt-3</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+                <a href="#" class="btn btn-primary" id="pro3">Add To Cart</a>
+      
+          </div>
         </div>
-    </div>
-    
-    <div class=" col-md-3 ">
-    <div class="card">
-        <img src="assets/p1.jpg" alt="">
-        <div class="card-head text-center"id="sp" >T-Shirt-2</div>
-        <div class="card-body">
-            <button id="pro2" class="align-items-center">Add to Cart</button>
-        </div>
-    </div>
+      </div>
+      
+      
+       
+      </div>
+          
+          
+      
+      <div class="col-md-4 cart">
+          <h1>Cart</h1>
+      <input type="text" id="filter" placeholder="Filter Products" required>
+      <ul id="cart_product">
+      
+      </ul>
+      <button id="remove_btn"class="btn btn-danger">Remove All Products</button>
+      
+      </div>
+      </div>
 </div>
-    <div class=" col-md-3 ">
-    <div class="card">
-        <img src="assets/p2.jpg" alt="">
-        <div class="card-head text-center"id="tp">T-Shirt-3</div>
-        <div class="card-body">
-            <button id="pro3"class=" align-items-center">Add to Cart</button>
-        </div>
-    </div>
-</div>
-
-</div>
-<hr>
-<hr>
-<h1>Cart</h1>
-<input type="text" id="filter" placeholder="Filter Products">
-<ul id="cart_product">
-
-</ul>
-<button id="remove_btn"class="btn btn-danger">Remove All Products</button>
-
        
    
   
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
 <script src="script.js"></script>
 </body>
 </html>
